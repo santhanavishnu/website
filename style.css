@@ -1,0 +1,54 @@
+*
+{
+    background-color: rgba(219,219,219,0.5);
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+body{
+
+    height: 100vh;
+}
+/*--- Header ---- */
+header{
+
+    display: flex;
+    align-content: center;
+    justify-content:space-around;
+    padding: 20px 18%;
+    border-bottom: 1px solid rgba(109, 172, 243, 0.5);
+}
+header .logo 
+{
+    height:29px;
+}
+
+header nav ul 
+{
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+   
+    
+
+}
+header nav ul li
+{
+    margin-right: 30px;
+}
+header nav ul li a
+{
+text-decoration: none;
+color: rgba(35,35,35,0.5);
+
+
+}
+header nav ul li a:hover
+{
+    color: rgb(7, 2, 73);
+}
+header nav ul li a .i
+{
+   margin-right: 5px;
+}
